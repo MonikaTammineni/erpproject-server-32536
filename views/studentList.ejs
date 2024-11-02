@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Students</title>
+</head>
+<body>
+    <h1>List of Students</h1>
+    <ul>
+        <% students.forEach(student => { %>
+            <li><%= student.name %> (ID: <%= student.id %>, Age: <%= student.age %>)</li>
+        <% }) %>
+    </ul>
+</body>
+</html>
